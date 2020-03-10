@@ -1,4 +1,4 @@
-.btn-sci {
+.btn-sci-white {
     background: transparent;
     border: 3px solid #fff;
     padding: 8px 15px;
@@ -8,8 +8,42 @@
     transition: all 0.3s;
 }
 
-.btn-sci:hover {
+.btn-sci-white:hover {
     background-color: #fff;
     color: #891013;
 
+}
+
+.btn-sci {
+    background: transparent;
+    border: 3px solid #891013;
+    padding: 8px 15px;
+    color: #891013;
+    border-radius: 3px;
+    font-weight: 800;
+    transition: all 0.3s;
+}
+
+.btn-sci:hover {
+    background-color: #891013;
+    color: #fff;
+
+}
+
+.title-produtos {
+    font-size: 35px;
+    color: #4B0E11;
+    font-weight: 800;
+    text-align: center;
+}
+
+.title-produtos::after {
+    content: "";
+    height: 5px;
+    width: 20%;
+    background-color: #891013;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }

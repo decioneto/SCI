@@ -65,3 +65,17 @@ body {
     margin: auto;
     text-align: center;
 }
+
+.nossos-produtos p {
+    padding: 0 20px;
+}
+
+.nossos-produtos button {
+    margin-left: 20px;
+}
+
+.nossos-produtos img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+}
