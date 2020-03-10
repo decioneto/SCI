@@ -103,3 +103,43 @@ body {
     text-align: center;
     color: #fff;
 }
+
+footer {
+    background-color: #891013;
+    padding: 30px;
+}
+
+footer img {
+    margin: auto;
+    display: block;
+}
+
+footer .contato {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+footer i {
+    margin-right: 10px;
+}
+
+footer .email {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+footer .redes {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer .redes a {
+    color: #fff;
+    font-size: 25px;
+    margin-right: 10px;
+}
