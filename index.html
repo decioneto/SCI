@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SCI</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/owlcarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="node_modules/owlcarousel/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/components.css">
     <link rel="shortcut icon" href="lib/images/favicon.ico" type="image/x-icon">
@@ -31,9 +33,67 @@
         </div>
     </header>
 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="lib/images/logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Plano de negócios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Quem somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FQA</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <div class="home-carousel">
+        <div class="owl-carousel">
+            <div class="item"><img src="lib/images/1.jpg" alt=""></div>
+            <div class="item"><img src="lib/images/2.jpg" alt=""></div>
+            <div class="item"><img src="lib/images/3.jpg" alt=""></div>
+            <div class="item"><img src="lib/images/4.jpg" alt=""></div>
+            <div class="item"><img src="lib/images/5.jpg" alt=""></div>
+        </div>
+
+        <div class="title-carousel">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>A oportunidade pra mudar <br>a sua vida!</h1>
+                        <p>
+                            Todos buscam incansavelmente melhoria na qualidade de vida e aumentar a renda. Por isso as pessoas 
+                            acordam todo dia ela manhã e vão para o trabalho, entrando numa rotina interminável e a tal liberdade 
+                            financeira nunca chega. Nós trazemos uma forma inovadora de conquistar uma renda extra, melhorar a 
+                            qualidade de vida e mudar a realidade financeira do Brasileiro.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nossos-produtos">
+        
+    </div>
+
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/owlcarousel/dist/owl.carousel.min.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>

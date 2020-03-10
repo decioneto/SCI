@@ -7,6 +7,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 400;
+    color: #000;
 }
 
 #header {
@@ -45,4 +46,22 @@ body {
 #header .container .header-infos .head-icons .icon-list li a {
     color: #fff;
     font-size: 20px;
+}
+
+.home-carousel {
+    margin-bottom: 75px;
+}
+
+.home-carousel .title-carousel h1 {
+    text-align: center;
+    font-size: 52px;
+    font-weight: 800;
+    letter-spacing: 0;
+    color: #891013;
+}
+
+.home-carousel .title-carousel p {
+    width: 60%;
+    margin: auto;
+    text-align: center;
 }
