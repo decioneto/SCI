@@ -46,6 +46,22 @@ body {
 #header .container .header-infos .head-icons .icon-list li a {
     color: #fff;
     font-size: 20px;
+    transition: all 0.2s ease;
+}
+
+#header .container .header-infos .head-icons .icon-list li a:hover {
+    opacity: 0.8;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #4B0E11;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+    font-weight: 900;
+    border-bottom: 4px solid #891013;
 }
 
 .home-carousel {
