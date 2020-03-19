@@ -61,7 +61,19 @@ body {
 
 .navbar-light .navbar-nav .nav-item.active .nav-link {
     font-weight: 900;
-    border-bottom: 4px solid #891013;
+}
+
+.navbar-light .navbar-nav .nav-item.active .nav-link::after {
+    content: "";
+    height: 5px;
+    width: 49px;
+    display: block;
+    background-color: #891013;
+    margin-top: 15px;
+    position: absolute;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .home-carousel {
