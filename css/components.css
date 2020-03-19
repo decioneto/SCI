@@ -30,14 +30,14 @@
 
 }
 
-.title-produtos {
+.title-page {
     font-size: 35px;
     color: #4B0E11;
     font-weight: 800;
     text-align: center;
 }
 
-.title-produtos::after {
+.title-page::after {
     content: "";
     height: 5px;
     width: 20%;
@@ -46,4 +46,11 @@
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.title-mvv {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 900;
+    margin-bottom: 20px;
 }

@@ -132,6 +132,25 @@ body {
     color: #fff;
 }
 
+/* PLANOS */
+
+.onde-surgiu {
+    margin-top: 55px;
+}
+
+.onde-surgiu .mvv-box {
+    background-color: #4B0E11;
+    height: 640px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
 footer {
     background-color: #891013;
     padding: 30px;
