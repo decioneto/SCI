@@ -157,6 +157,8 @@ body {
 
 .beneficios .cartao img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .beneficios .cartao .caption {
@@ -191,6 +193,55 @@ body {
     list-style: none;
     padding-left: 50px;
     color: #4b0e11
+}
+
+.lances {
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.lances .title-lances {
+    font-size: 50px;
+    font-weight: 900;
+    color: #891013;
+    text-align: center;
+}
+
+.lances .title-prod-lances {
+    font-size: 20px;
+    color: #4B0E11;
+}
+
+.lances .desc-prod {
+    margin: 0;
+}
+
+.lances .price-prod {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 900;
+    color: #4b0e11;
+}
+
+.lances .como-funciona {
+    font-size: 25px;
+    color: #4b0e11;
+    margin-bottom: 20px;    
+}
+
+.lances a:hover {
+    text-decoration: none;
+}
+
+.lances .btn-leilao {
+    display: block;
+    margin: auto;
+}
+
+.indicar-img img{
+    max-width: 370px;
+    margin: auto;
+    display: block;
 }
 
 footer {
