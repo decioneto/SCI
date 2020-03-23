@@ -8,6 +8,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     color: #000;
+    overflow-x: hidden;
 }
 
 #header {
@@ -149,7 +150,48 @@ body {
     justify-content: space-evenly;
 }
 
+.beneficios .cartao {
+    background-color: #ECE6E6;
+    position: relative;
+}
 
+.beneficios .cartao img {
+    width: 100%;
+}
+
+.beneficios .cartao .caption {
+    position: absolute;
+    bottom: 40px;
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 0 200px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.beneficios .cartao .title-beneficios {
+    font-size: 50px;
+    font-weight: 900;
+    color: #891013;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding-left: 50px;
+}
+
+.beneficios .cartao .txt-beneficios {
+    color: #4b0e11;
+    padding-left: 50px;
+}
+
+.beneficios .cartao ul {
+    list-style: none;
+    padding-left: 50px;
+    color: #4b0e11
+}
 
 footer {
     background-color: #891013;
