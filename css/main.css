@@ -139,6 +139,12 @@ body {
     margin-top: 55px;
 }
 
+.onde-surgiu img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .onde-surgiu .mvv-box {
     background-color: #4B0E11;
     height: 640px;
