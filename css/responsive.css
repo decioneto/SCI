@@ -1,0 +1,21 @@
+@media(max-width: 1330px) {
+    .beneficios .cartao .caption {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 740px) {
+    .beneficios .cartao .caption {
+        padding: 0 30px;
+    }
+}
+
+@media(max-width: 490px) {
+    .beneficios .cartao .title-beneficios {
+        font-size: 30px;
+    }
+
+    .lances .title-lances {
+        font-size: 30px;
+    }
+}
