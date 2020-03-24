@@ -4,6 +4,12 @@
     }
 }
 
+@media(max-width: 990px) {
+    .divisao .container .divisao-banner .divisao-caption p.txt-especial {
+        font-size: 80px;
+    }
+}
+
 @media(max-width: 740px) {
     .beneficios .cartao .caption {
         padding: 0 30px;
@@ -17,5 +23,13 @@
 
     .lances .title-lances {
         font-size: 30px;
+    }
+
+    .divisao .container .divisao-banner .divisao-caption p {
+        font-size: 30px;
+    }
+    
+    .divisao .container .divisao-banner .divisao-caption p.txt-especial {
+        font-size: 60px;
     }
 }

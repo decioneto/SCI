@@ -1,3 +1,10 @@
+@font-face {
+    src: url("../lib/fontes/serenity.otf");
+    font-family: 'Serenity';
+    font-size: 16px;
+    font-weight: normal !important;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -268,6 +275,147 @@ body {
     margin: auto;
     display: block;
     padding-left: 10px;
+}
+
+.plano-carreira {
+    margin-top: 55px;
+}
+
+.plano-carreira .carreiras {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.plano-carreira .carreiras .pin-carreiras {
+    background-color: #c4c4c4;
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+}
+
+.plano-carreira .carreiras .pin-carreiras span {
+    position: absolute;
+    background-color: #891013;
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -20px;
+}
+
+.plano-carreira .carreiras .info-carreiras h3 {
+    font-size: 30px;
+    font-weight: 900;
+    color: #4b0e11;
+    margin-top: 20px;
+}
+
+.plano-carreira .carreiras .info-carreiras p.strong{
+    margin-bottom: 0;
+    color: #4b0e11;
+}
+
+.plano-carreira .carreiras .info-carreiras small {
+    display: block;
+    font-size: 14px;
+    color: #891013;
+}
+
+.divisao {
+    background-image: url("../lib/images/divisao-banner.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+
+.divisao .container .divisao-banner .divisao-caption {
+    position: absolute;
+    bottom: 0;
+}
+
+.divisao .container .divisao-banner .divisao-title {
+    padding-top: 35px;
+    color: #fff;
+}
+
+.divisao .container .divisao-banner .title-page::after {
+    background-color: #fff;
+}
+
+.divisao .container .divisao-banner .divisao-caption p {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.divisao .container .divisao-banner .divisao-caption p.txt-especial {
+    font-family: 'Serenity';
+    font-size: 120px;
+    font-weight: normal;
+}
+
+.pl {
+    margin: 55px 0;
+}
+
+.pl .graduacao {
+    text-align: center;
+}
+
+.pl .graduacao .img-graduacao {
+    background-color: #c4c4c4;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.pl .graduacao .title-graduacao {
+    font-size: 30px;
+    font-weight: 900;
+    color: #4b0e11;
+}
+
+.pl .graduacao p {
+    color: #4b0e11;
+}
+
+.pl .pl-info {
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+
+.cta {
+    background-image: url("../lib/images/banner-cta.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cta .cta-info p{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    color: #fff;
 }
 
 footer {
