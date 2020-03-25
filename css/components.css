@@ -40,7 +40,7 @@
 .title-page::after {
     content: "";
     height: 5px;
-    width: 20%;
+    width: 100px;
     background-color: #891013;
     display: block;
     margin: auto;
@@ -53,4 +53,8 @@
     font-size: 22px;
     font-weight: 900;
     margin-bottom: 20px;
+}
+
+.h-100 {
+    height: 100%;
 }

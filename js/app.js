@@ -1,8 +1,8 @@
-$(".owl-carousel").owlCarousel({
+$(".home-owl").owlCarousel({
     loop: true,
     margin: 10,
     nav: false,
-    dots: true,
+    autoplay: true,
     responsive:{
         0:{
             items:1
@@ -14,6 +14,36 @@ $(".owl-carousel").owlCarousel({
             items:1
         }
     }
+});
+
+$(".somos-carousel").owlCarousel({
+  loop: true,
+  margin: 20,
+  nav: false,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:3
+      },
+      1000:{
+          items:3
+      }
+  }
+});
+
+var owl = $('.somos-carousel');
+owl.owlCarousel();
+// Go to the next item
+$('.arrow-right').click(function() {
+    owl.trigger('next.owl.carousel');
+});
+// Go to the previous item
+$('.arrow-left').click(function() {
+    // With optional speed parameter
+    // Parameters has to be in square bracket '[]'
+    owl.trigger('prev.owl.carousel', [300]);
 });
 
 //player

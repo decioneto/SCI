@@ -418,6 +418,80 @@ body {
     color: #fff;
 }
 
+/*QUEM SOMOS*/
+
+.empresa .empresa-img img {
+    width: 120%;
+}
+
+.empresa .box {
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    height: 100%;
+}
+
+.empresa .box .empresa-text {
+    background-color: #4b0e11;
+    width: 560px;
+    height: 440px;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+    z-index: 1;
+}
+
+.quem-somos-slider {
+    margin-top: 55px;
+}
+
+.quem-somos-slider .somos-carousel .item img {
+    width: 100%;
+}
+
+.quem-somos-slider .somos-carousel-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quem-somos-slider .somos-carousel-nav button {
+    background-color: #fff;
+    border: 0;
+    margin: 0 10px;
+}
+
+.quem-somos-slider .somos-carousel-nav button:focus {
+    outline: none;
+}
+
+.movimento {
+    background-image: url("../lib/images/banner-quem-somos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 650px;
+    width: 100%;
+}
+
+.movimento .movimento-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 550px;
+    height: 100%;
+    margin-left: auto;
+    text-align: center;
+}
+
+.movimento .movimento-text p {
+    font-size: 25px;
+    color: #fff;
+}
+
 footer {
     background-color: #891013;
     padding: 30px;
