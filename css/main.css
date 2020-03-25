@@ -122,6 +122,14 @@ body {
 
 .call-to-action {
     position: relative;
+    background-image: url("../lib/images/free.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .call-to-action img {
@@ -129,15 +137,11 @@ body {
 }
 
 .call-to-action .cta-text {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 0;
-    padding: 0 150px;
     font-size: 25px;
     width: 50%;
     text-align: center;
     color: #fff;
+    margin-left: auto;
 }
 
 /* PLANOS */
