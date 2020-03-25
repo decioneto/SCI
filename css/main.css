@@ -434,7 +434,6 @@ body {
 .empresa .box .empresa-text {
     background-color: #4b0e11;
     width: 560px;
-    height: 440px;
     position: absolute;
     text-align: center;
     color: #fff;
@@ -443,7 +442,7 @@ body {
 }
 
 .quem-somos-slider {
-    margin-top: 55px;
+    margin: 55px 0;
 }
 
 .quem-somos-slider .somos-carousel .item img {

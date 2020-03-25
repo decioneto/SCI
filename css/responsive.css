@@ -4,6 +4,17 @@
     }
 }
 
+@media (max-width: 1200px) {
+    .empresa .empresa-img img {
+        width: 100%;
+    }
+
+    .empresa .box .empresa-text {
+        position: relative;
+        width: 100%;
+    }
+}
+
 @media(max-width: 990px) {
     .divisao .container .divisao-banner .divisao-caption p.txt-especial {
         font-size: 80px;
@@ -31,5 +42,13 @@
     
     .divisao .container .divisao-banner .divisao-caption p.txt-especial {
         font-size: 60px;
+    }
+
+    .movimento .movimento-text img {
+       width: 200px; 
+    }
+    
+    .movimento .movimento-text p {
+        font-size: 20px;
     }
 }
