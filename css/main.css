@@ -491,6 +491,18 @@ body {
     color: #fff;
 }
 
+/*Contato*/
+
+.contato {
+    margin: 55px 0;
+}
+
+.contato .btn-enviar {
+    margin-top: 20px;
+    margin-left: auto;
+    display: block;
+}
+
 footer {
     background-color: #891013;
     padding: 30px;
