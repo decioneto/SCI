@@ -525,11 +525,15 @@ body {
 
 .blog .blog-destaque .postagem-links a {
     color: #891013;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .blog hr {
     border-color: #891013;
+}
+
+.blog .postagem {
+    margin-top: 20px;
 }
 
 .blog .postagem .img-postagem {
@@ -545,7 +549,64 @@ body {
 }
 
 .blog .postagem .data-postagem {
-    
+    font-style: italic;
+    color: #891013;
+}
+
+.blog .postagem .postagem-links a{
+    color: #891013;
+    margin-right: 20px;
+}
+
+.blog .search {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.blog .search .postagem-input {
+    width: 100%;
+    border: 1px solid #989898;
+    padding: 10px;
+    padding-right: 50px;
+    border-radius: 3px;
+}
+
+.blog .search input:focus {
+    outline: none;
+}
+
+.blog .search button {
+    position: absolute;
+    right: 20px;
+    color: #891013;
+    border: 0;
+    background-color: transparent;
+}
+
+.blog .categoria .list-categoria {
+    list-style: none;
+}
+
+.blog .categoria .list-categoria li a{
+    color: #000;
+}
+
+.blog .categoria .list-categoria li a:hover {
+    text-decoration: none;
+    color: #891013
+}
+
+.blog .data .data-input {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.blog .data label {
+    position: absolute;
+    right: 20px;
+    color: #891013;
 }
 
 /*Contato*/

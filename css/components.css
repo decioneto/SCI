@@ -62,3 +62,17 @@
 .mt-55 {
     margin-top: 55px;
 }
+
+.title-filtro {
+    font-style: 30px;
+    color: #891013;
+    font-weight: 900;
+}
+
+.postagem-input {
+    width: 100%;
+    border: 1px solid #989898;
+    padding: 10px;
+    padding-right: 50px;
+    border-radius: 3px;
+}
