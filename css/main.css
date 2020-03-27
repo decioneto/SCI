@@ -495,6 +495,59 @@ body {
     color: #fff;
 }
 
+/*blog*/
+
+.blog {
+    margin-bottom: 35px;
+}
+
+.blog .banner-blog img {
+    width: 100%;
+}
+
+.blog .blog-destaque img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog .blog-destaque h3.title-blog-destaque {
+    font-size: 30px;
+    font-weight: 900;
+    color: #891013; 
+    margin-top: 20px;
+}
+
+.blog .blog-destaque .data-postagem {
+    color: #891013;
+    font-style: italic;
+}
+
+.blog .blog-destaque .postagem-links a {
+    color: #891013;
+    margin-right: 10px;
+}
+
+.blog hr {
+    border-color: #891013;
+}
+
+.blog .postagem .img-postagem {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blog .postagem h4.title-postagem {
+    font-size: 25px;
+    font-weight: 900;
+    color: #4b0e11;
+}
+
+.blog .postagem .data-postagem {
+    
+}
+
 /*Contato*/
 
 .contato {
